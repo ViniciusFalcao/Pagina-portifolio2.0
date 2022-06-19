@@ -1,0 +1,124 @@
+.app{
+    background-color:black;
+    display: grid;
+    grid-template-areas: 
+    "cabecalho"
+    "conteudo"
+    "rodape";
+    grid-template-rows: 100px calc(95vh - 100px ) 30px;
+    grid-gap: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    
+
+}
+header{
+    margin-top: .5rem;
+    grid-area: cabecalho;
+    color:#222A99;
+    
+    
+    
+}
+.Logo{
+    display: inline-block;
+}
+.caixa{
+    border-color: #222A99;
+    border: solid 3px;
+    background-color:#C5FEF5;
+    position: relative;
+    margin: 0px auto;
+    width: 940px;
+    vertical-align: top;
+    border-bottom: #C5FEF5;
+    
+    
+    
+}
+.caixa ul{
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    
+}
+.lista-nav li {
+    font-size: 20px;
+    color: black;
+}
+
+h1{
+    margin-top: 37px;
+}
+.infos{
+    margin-top: 51px;
+}
+.infos:hover{
+    color: #222A99;
+}
+
+main{
+    grid-area: conteudo;
+    width: 940px;
+    margin: 0px auto;
+    background: #C5FEF5;
+    border: solid 3px #222A99;
+    border-top: #C5FEF5;
+    
+}
+h2{
+    color: #222A99;
+}
+.sobre{
+    margin: 0px auto;
+    text-align: left;
+    margin-top: 10rem;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 600px;
+    border: 3px solid #222A99;
+}
+.div-titulo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    margin-top: 10px;
+}
+.div-sobre-txt{
+    width: 600px;
+    margin: 0px auto;
+   
+}
+.sobre-p{
+    
+    text-align: center;
+
+    
+}
+.foco{
+    font-style: italic;
+    color: #222A99;
+}
+.div-prox{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.div-prox button{
+    background-color:#222A99;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    width: 80px;
+}
+.div-prox button:hover{
+    color:#C5FEF5;
+}
+
+footer{
+    grid-area: rodape;
+}
