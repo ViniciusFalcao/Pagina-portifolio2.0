@@ -139,20 +139,28 @@ h2{
 .card1{
     grid-column: 2/3;
     grid-row: 1/2;
-    border: #222A99 solid 3px;
+    
     display: grid;
-    grid-template-rows: 20% 80%;
+    grid-template-rows: 15% 85%;
     grid-template-columns: 100%;
     grid-template-areas: "desc" "img";
 }
 .card1__img{
     grid-area: img;
-    background-image: url('../projeto-port2/css3.png') ;
+    background: url('../projeto-port2/HTMLICON.png') center / cover no-repeat ;
 }
 .card2{
     grid-column: 3/3;
     grid-row: 1/1;
-    border: #222A99 solid 3px;
+    display: grid;
+    grid-template-rows: 15% 85%;
+    grid-template-columns: 100%;
+    grid-template-areas: "desc" "img";
+}
+.card2__img{
+    grid-area: img;
+    background: url('../projeto-port2/logo-js\(red\).png') center / cover no-repeat ;
+    margin: .5px;
 }
 .card3{
     grid-column: 4/4;
