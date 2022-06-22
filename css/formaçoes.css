@@ -1,0 +1,214 @@
+/*Formações*/
+.formaçoes {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 20% 70%;
+    grid-template-areas:
+        "titulo"
+        "cursos"
+    ;
+
+}
+
+.cursos {
+    display: grid;
+    height: 100%;
+    grid-area: cursos;
+    grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 0.5fr;
+    grid-template-rows: 50% 50%;
+    grid-gap: 2rem;
+}
+
+.prox-formacoes {
+    display: flex;
+    grid-row: 1/1;
+    grid-column: 6/6;
+    align-items: end;
+    position: relative;
+    top: 9%;
+}
+
+.desc {
+    border: 2px solid #222A99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #222A99;
+}
+
+.desc p {
+    text-align: center;
+
+}
+
+.last {
+    padding: 5px;
+    height: 40px;
+    width: 156.0px;
+
+}
+
+.card1 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    display: grid;
+    grid-template-rows: 15% 85%;
+    grid-template-columns: 100%;
+    grid-template-areas: "desc""img";
+}
+
+.card1__img {
+    grid-area: img;
+    margin: .5px;
+    border: #222A99 solid 2px;
+    border-top: none;
+    margin-right: 0px;
+    margin-left: 0;
+}
+
+.card2 {
+    grid-column: 3/3;
+    grid-row: 1/1;
+    display: grid;
+    grid-template-rows: 15% 85%;
+    grid-template-columns: 100%;
+    grid-template-areas: "desc""img";
+}
+
+.card2__img {
+    grid-area: img;
+    margin: .5px;
+    border: #222A99 solid 2px;
+    border-top: none;
+    margin-right: 0px;
+    margin-left: 0;
+    padding-top: 5px;
+
+}
+
+.card3 {
+    grid-column: 4/4;
+    grid-row: 1/1;
+    display: grid;
+    grid-template-rows: 15% 85%;
+    grid-template-columns: 100%;
+    grid-template-areas: "desc""img";
+
+}
+
+.card3__img {
+    grid-area: img;
+    border: #222A99 solid 2px;
+    border-top: none;
+    margin-right: 0px;
+    padding-top: 5px;
+
+}
+
+
+.card4 {
+    grid-column: 5/5;
+    grid-row: 1/1;
+    display: grid;
+    grid-template-rows: 15% 85%;
+    grid-template-columns: 100%;
+    grid-template-areas: "desc""img";
+
+}
+
+.card4__img {
+    grid-area: img;
+    margin: .5px;
+    border: #222A99 solid 2px;
+    border-top: none;
+    margin-right: 0px;
+    margin-left: 0;
+    padding: 4px;
+    height: 151px;
+    width: 157px;
+}
+.js{
+    width: 157px;
+}
+
+.card5 {
+    grid-column: 2/3;
+    grid-row: 2/2;
+    display: grid;
+    grid-template-rows: 15% 85%;
+    grid-template-columns: 100%;
+    grid-template-areas: "desc""img";
+
+}
+
+.card5__img {
+    grid-area: img;
+    border: #222A99 solid 2px;
+    border-top: none;
+    margin-right: 0px;
+    margin-left: 0;
+
+}
+
+.card6 {
+    grid-column: 3/3;
+    grid-row: 2/2;
+    display: grid;
+    grid-template-rows: 15% 85%;
+    grid-template-columns: 100%;
+    grid-template-areas: "desc""img";
+
+}
+
+.card6__img {
+    grid-area: img;
+    border: #222A99 solid 2px;
+    border-top: none;
+    margin-right: 0px;
+    margin-left: 0;
+
+}
+
+.card7 {
+    grid-column: 4/4;
+    grid-row: 2/2;
+    display: grid;
+    grid-template-rows: 15% 85%;
+    grid-template-columns: 100%;
+    grid-template-areas: "desc""img";
+
+}
+
+.card7__img {
+    grid-area: img;
+    border: #222A99 solid 2px;
+    border-top: none;
+    margin-right: 0px;
+    margin-left: 0;
+
+}
+
+.card8 {
+    grid-column: 5/5;
+    grid-row: 2/2;
+    display: grid;
+    grid-gap: .5rem;
+    grid-template-rows: 15% 85%;
+    grid-template-columns: 100%;
+    grid-template-areas: "desc""img";
+
+}
+
+.card8__img {
+    grid-area: img;
+    margin: .5px;
+    border: #222A99 solid 2px;
+    border-top: none;
+    margin-right: 5px;
+    margin-left: 0;
+    width: 156px;
+    height: 145px;
+}
+.display-none {
+    display: none;
+}
