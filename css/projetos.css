@@ -46,9 +46,13 @@
 }
 .img-projetos{
     border: solid 2px #222A99;
+    grid-area: gif;
+    width: 100%;
+    height: 100%;
 }
 .display-none {
     display: none;
 }
+
 
   
