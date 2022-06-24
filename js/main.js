@@ -55,15 +55,10 @@ for (let index = 0; index < imagens_proj.length; index++) {
     
 }
 for (let index = 0; index < info_projetos.length; index++) {
-    info_projetos[index].addEventListener('mouseout',function () {
-        
-        
-        this.classList.add('display-none')
-        imagens_proj[index].classList.remove('display-none')
-        
-        
-        
-        
+    info_projetos[index].addEventListener('mouseout',function () {        
+        var inf=this;
+        inf.classList.add('display-none');
+        imagens_proj[index].classList.remove('display-none')        
     })
     
 }
