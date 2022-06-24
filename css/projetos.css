@@ -24,7 +24,7 @@
     grid-template-rows: 17% 84%;
     grid-template-columns: 1fr;
     grid-template-areas: "titulo" "gif";
-    margin: .8rem;
+    margin: .5rem;
     grid-gap: 0;
 
 }
@@ -49,6 +49,45 @@
     width: 100%;
     height: 100%;
 }
+.info_projetos{
+    border: #222A99 solid 2px;
+    color: #222A99;
+    grid-area: gif;
+    
+}
+.info_projetos h5 {
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-weight: bold;
+    
+}
+.tec_usada{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+    align-items: center;
+}
+.tec_usada img{
+    width: 50px;
+    height: 50px;
+
+}
+.links_do_proj{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.links_do_proj button{
+    background-color: #222A99;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+
+}
+
 .display-none {
     display: none;
 }
