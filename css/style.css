@@ -46,7 +46,7 @@ header {
 
 .lista-nav li {
     font-size: 20px;
-    color: black;
+    color: #222A99;
 }
 
 h1 {
@@ -58,7 +58,7 @@ h1 {
 }
 
 .infos:hover {
-    color: #222A99;
+    color: orangered;
 }
 
 main {

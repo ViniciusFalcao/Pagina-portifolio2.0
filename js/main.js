@@ -64,3 +64,13 @@ for (let index = 0; index < info_projetos.length; index++) {
     
 }
 
+var card=document.querySelectorAll('.card');
+
+for (let index = 0; index < card.length; index++) {
+    card.addEventListener('mouseover',function(){
+        this.style.cssText='border:solid 2px orangered'
+
+    })
+    
+}
+

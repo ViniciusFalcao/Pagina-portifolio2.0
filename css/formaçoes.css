@@ -47,6 +47,9 @@
     width: 156.0px;
 
 }
+.card{
+    height: 182.00px;
+}
 
 .card1 {
     grid-column: 2/3;
