@@ -16,13 +16,17 @@
 .div-titulo {
     display: flex;
     justify-content: center;
-    margin-bottom: 1rem;
     margin-top: 10px;
+    border: #222A99 solid 2px;
+    border-bottom: none;
+    padding: 5px;
 }
 
 .div-sobre-txt {
     width: 600px;
     margin: 0px auto;
+    border: #222A99 solid 2px;
+    padding: 2px;
 
 }
 

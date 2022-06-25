@@ -67,10 +67,22 @@ for (let index = 0; index < info_projetos.length; index++) {
 var card=document.querySelectorAll('.card');
 
 for (let index = 0; index < card.length; index++) {
-    card.addEventListener('mouseover',function(){
-        this.style.cssText='border:solid 2px orangered'
-
+    card[index].addEventListener('mouseover',function(){
+        var desc=document.querySelectorAll('.desc');
+        var img_forma=document.querySelectorAll('.img_forma')
+        desc[index].style.cssText='border:2px solid red;'
+        img_forma[index].style.cssText='border:2px solid red; border-top:none;'
     })
+    
+}
+for (let index = 0; index < card.length; index++) {
+    card[index].addEventListener('mouseout',function(){
+        var desc=document.querySelectorAll('.desc');
+        var img_forma=document.querySelectorAll('.img_forma')
+        desc[index].style.cssText='border:2px solid #222A99;'
+        img_forma[index].style.cssText='border:2px solid #222A99; border-top:none;'
+    })
+    
     
 }
 
