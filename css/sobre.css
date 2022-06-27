@@ -13,14 +13,18 @@
     width: 600px;
 }
 
-.div-titulo {
+.div-titulo , .div-titulo2 {
     display: flex;
     justify-content: center;
     margin-top: 10px;
-    border: #222A99 solid 2px;
     border-bottom: none;
     padding: 5px;
 }
+.div-titulo{
+    border: #222A99 solid 2px;
+    border-bottom: none;
+}
+
 
 .div-sobre-txt {
     width: 600px;

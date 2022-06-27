@@ -11,12 +11,21 @@
     margin-top: 20px;
     grid-area: titulo;
 }
+.div-tit-pro h2{
+    margin-right: 30px;
+}
+.botao_prox_proj{
+    color: #222A99;
+    position: relative;
+    top: 0px;
+}
 .lista_projetos{
     display: grid;
     grid-area: lista;
-    grid-template-rows: 43% 43% ; 
-    grid-template-columns: 50% 50% ;  
+    grid-template-rows: 47% 47% ; 
+    grid-template-columns: 50% 50%;  
     grid-gap: 0.3rem;
+    margin-right: 50px;
    
 }
 .item-pro{
@@ -28,6 +37,8 @@
     grid-gap: 0;
 
 }
+
+
 .item_titulo_pro{
     
     display: flex;
@@ -104,6 +115,7 @@
 .display-none {
     display: none;
 }
+
 
 
 
