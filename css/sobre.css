@@ -2,15 +2,17 @@
 /* SOBRE */
 .sobre {
     margin: 0px auto;
-    text-align: left;
-    margin-top: 10rem;
+    text-align: left;  
     color: black;
     font-size: 18px;
     font-weight: bold;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 600px;
+    width: 100%;
+    grid-area: sobre;
+    margin-bottom: 90px;
+    margin-top: 200px;
 }
 
 .div-titulo , .div-titulo2 {
@@ -21,7 +23,12 @@
     padding: 5px;
 }
 .div-titulo{
-    border: #222A99 solid 2px;
+    margin: 0px auto;
+    border-bottom: none;
+}
+.div-titulo{
+    width: 600px;
+    border: solid 2px #222A99;
     border-bottom: none;
 }
 
@@ -56,12 +63,13 @@
     width: 90px;
     position: relative;
     left: 90%;
-    top: 47%;
+    top: 48%;
 
 }
 
+
 .seta_sobre,
-.seta-forma {
+.seta-forma,.botao_prox_proj {
     background-color: #C5FEF5;
     color: #222A99;
     border: none;

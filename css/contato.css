@@ -1,0 +1,71 @@
+.contato{
+    display: grid;
+    padding-top: 150px;
+    grid-template-rows: 10% 90%;
+    grid-template-columns: 1fr;
+    grid-template-areas: "titulo" "contato";
+
+}
+
+.div_tit_conntato{
+    grid-area: titulo;
+
+}
+.principal_contato{
+    grid-area: contato;
+    
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-areas: "imagem" "form";
+
+}
+
+.icons_contato{
+    grid-area: imagem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.icons_contato img{
+    width: 50px;
+    height: 50px;
+    
+    
+   
+}
+.form_contato{
+    margin-top: 50px;
+}
+.form_contato input{
+    width: 300px;
+    border: solid 2px #222A99;
+    text-align: center;
+
+}
+.local_form{
+    grid-area: form;
+    grid-row: 1/1;
+    grid-column: 2/2;
+    color: #222A99;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    
+  
+}
+.align-inputs{
+    margin-left: 18px;
+}
+#msg{
+    margin-left: 66px;
+    width: 300px;
+    border: #222A99 solid 2px;
+}
+.enviar{
+    position: relative;
+    left: 50%;
+    background-color: #222A99;
+    color: white;
+    font-weight: bold;
+    border: none;
+}

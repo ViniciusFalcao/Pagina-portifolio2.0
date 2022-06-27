@@ -1,8 +1,10 @@
 .projetos{
     display: grid;
-    grid-template-rows: 1fr 9fr;
+    grid-template-rows: 0.8fr 9.2fr;
     grid-template-areas:"titulo" "lista" ;
-    height: 100%;
+    grid-area: projeto;
+    margin-top: 100px;
+    padding-top: 145px;
 }
 .div-tit-pro{
     display: flex;
@@ -10,22 +12,21 @@
     margin-bottom: .5rem;
     margin-top: 20px;
     grid-area: titulo;
+    margin-bottom: 5px;
 }
-.div-tit-pro h2{
-    margin-right: 30px;
-}
+
 .botao_prox_proj{
     color: #222A99;
     position: relative;
-    top: 0px;
+    left: 97%;
+    width: 100px;
+    bottom: 1350%;
 }
 .lista_projetos{
     display: grid;
     grid-area: lista;
-    grid-template-rows: 47% 47% ; 
+    grid-template-rows: 45% 45% ; 
     grid-template-columns: 50% 50%;  
-    grid-gap: 0.3rem;
-    margin-right: 50px;
    
 }
 .item-pro{
@@ -109,6 +110,10 @@
     font-weight: bold;
     border: none;
     border-radius: 8px;
+
+}
+.botao_prox_proj{
+    width: 26px;
 
 }
 

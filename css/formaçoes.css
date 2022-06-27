@@ -2,11 +2,21 @@
 .formaçoes {
     height: 100%;
     display: grid;
-    grid-template-rows: 20% 70%;
+    grid-template-rows: 16% 80%;
     grid-template-areas:
         "titulo"
         "cursos"
     ;
+    grid-area: formaçao;
+    padding-top: 150px;
+
+}
+.div-titulo2{
+    height: 60px;
+    grid-area: titulo;
+}
+.div-titulo2 h2{
+    height: 100px;
 
 }
 
@@ -15,7 +25,7 @@
     height: 100%;
     grid-area: cursos;
     grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 0.5fr;
-    grid-template-rows: 50% 50%;
+    grid-template-rows: 40% 40%;
     grid-gap: 2rem;
 }
 
@@ -25,7 +35,7 @@
     grid-column: 6/6;
     align-items: end;
     position: relative;
-    top: 9%;
+    top: -4%;
 }
 
 .desc {
