@@ -15,13 +15,7 @@
     margin-bottom: 5px;
 }
 
-.botao_prox_proj{
-    color: #222A99;
-    position: relative;
-    left: 97%;
-    width: 100px;
-    bottom: 1350%;
-}
+
 .lista_projetos{
     display: grid;
     grid-area: lista;
@@ -112,10 +106,7 @@
     border-radius: 8px;
 
 }
-.botao_prox_proj{
-    width: 26px;
 
-}
 
 .display-none {
     display: none;

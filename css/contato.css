@@ -14,7 +14,6 @@
 }
 .principal_contato{
     grid-area: contato;
-    
     display: grid;
     grid-template-columns: 40% 60%;
     grid-template-areas: "imagem" "form";
@@ -60,7 +59,7 @@
 }
 #msg{
     margin-left: 66px;
-    width: 300px;
+    width: 280px;
     border: #222A99 solid 2px;
 }
 .enviar{

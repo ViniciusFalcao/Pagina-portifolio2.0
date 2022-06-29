@@ -1,9 +1,188 @@
-@media screen and (max-width:1000px) {
-    .caixa{
+@media screen and (max-width:480px) {
+    .caixa {
+        width: auto;
+        
+
+    }
+
+    .logo {
+        display: block;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .logo img {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .caixa {
+        width: 100%;
+    }
+
+    .caixa ul {
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+
+    }
+
+    .infos {
+        margin-top: 10px;
+    }
+
+    .lista-nav {
+        padding-bottom: 20px;
+    }
+
+    main {
         width: auto;
     }
-    main{
+
+    .sobre {
         width: auto;
     }
-}
+
+    .div-titulo {
+        width: 90%;
+
+    }
+
+
+    .div-sobre-txt {
+        width: 90%;
+
+
+    }
+
+    .formaçoes {
+        padding-top: 300px;
+        width: auto;
+
+
+
+    }
+
+    .cursos {
+        width: 44%;
+        margin: 0px auto;
+    }
+
+    .formaçoes {
+        grid-template-rows: 10% 80%;
+        text-align: center;
+
+    }
+
+    .div-titulo2 {
+        margin-right: 10px;
+    }
+
+    .projetos {
+        padding-top: 300px;
+        width: auto;
+        
+
+    }
+    .lista_projetos{
+        grid-template-rows: 25% 25% 25% 25%; 
+        grid-template-columns: 100%;  
+       
+    }
+
+    footer {
+        width: auto;
+    }
+
+    .cursos {
+        grid-template-columns: 100%;
+        grid-template-rows: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+    }
+
+    .card1 {
+        grid-row: 1/1;
+        grid-column: 1/1;
+    }
+
+    .card2 {
+        grid-row: 2/2;
+        grid-column: 1/1;
+    }
+
+    .card3 {
+        grid-row: 3/3;
+        grid-column: 1/1;
+    }
+
+    .card4 {
+        grid-row: 4/4;
+        grid-column: 1/1;
+    }
+
+    .card5 {
+        grid-row: 5/5;
+        grid-column: 1/1;
+    }
+
+    .card6 {
+        grid-row: 6/6;
+        grid-column: 1/1;
+    }
+
+    .card7 {
+        grid-row: 7/7;
+        grid-column: 1/1;
+    }
+
+    .card8 {
+        grid-row: 8/8;
+        grid-column: 1/1;
+    }
+
+    .img_forma {
+        height: 151px;
+        width: 157px;
+    }
+
+    .desc {
+        width: 157px;
+    }
+    .contato{
+        padding-top: 300px;
+    }
+
+
+    .principal_contato {
+        grid-template-columns: 100%;
+        grid-template-rows: 25% 50%;
+
+    }
+
+
+    .icons_contato {
+        grid-row: 2/2;
+        margin-left: 40px;
+    }
+    .local_form{
+        grid-column: 1/1;
+        grid-row: 1/1;
+        
+    }
+    .align-inputs{
+        margin-left: 17px;
+    }
+    .form_contato input{
+        width: 290px;
+        
     
+    }
+
+
+
+
+
+}
