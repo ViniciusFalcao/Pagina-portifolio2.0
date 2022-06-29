@@ -12,7 +12,10 @@
     width: 100%;
     grid-area: sobre;
     margin-bottom: 90px;
-    margin-top: 200px;
+    
+}
+.perfil{
+    margin: 0px auto;
 }
 
 .div-titulo , .div-titulo2 {

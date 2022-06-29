@@ -4,6 +4,7 @@
     grid-template-rows: 10% 90%;
     grid-template-columns: 1fr;
     grid-template-areas: "titulo" "contato";
+    margin-bottom: 50px;
 
 }
 
@@ -34,12 +35,13 @@
    
 }
 .form_contato{
-    margin-top: 50px;
+    margin-top: 40px;
 }
 .form_contato input{
     width: 300px;
     border: solid 2px #222A99;
-    text-align: center;
+    padding-left: 20px;
+    padding: 5px;
 
 }
 .local_form{
