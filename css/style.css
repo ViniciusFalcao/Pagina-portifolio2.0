@@ -80,7 +80,7 @@ main {
     margin: 0px auto;
     background: #C5FEF5;
     border-top: #C5FEF5;
-    grid-template-rows: 0.1fr 1fr 1fr 0.8fr;
+    grid-template-rows: 0.1fr 1fr 1fr 0.4fr;
     grid-template-areas: "sobre""formaçao""projeto""contato";
 
 

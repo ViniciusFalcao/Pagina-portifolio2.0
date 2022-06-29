@@ -158,14 +158,14 @@
 
     .principal_contato {
         grid-template-columns: 100%;
-        grid-template-rows: 25% 50%;
+        grid-template-rows: 80% 46%;
 
     }
 
 
     .icons_contato {
         grid-row: 2/2;
-        margin-left: 40px;
+        margin-left: 74px;
     }
     .local_form{
         grid-column: 1/1;
